@@ -4,7 +4,9 @@ import Chart from "../../components/Chart05";
 import instruction from "./instruction.md";
 
 const convertData = (input) => {
-  return []; // ここを作りましょう！
+  const genders = Array.from(new Set(input.map(({ gender }) => gender)));
+  const min = Math.round(Math.min(...input.map(({ y }) => y)));
+  const max = Math.round(Math.max(...input.map(({ y }) => y)));
 };
 
 const Lesson = () => {

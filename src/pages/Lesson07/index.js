@@ -4,7 +4,6 @@ import Chart from "../../components/Chart07";
 import instruction from "./instruction.md";
 
 const convertData = (input) => {
-  return []; // ここを作りましょう！
 };
 
 const Lesson = () => {
